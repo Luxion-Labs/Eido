@@ -50,6 +50,10 @@ uvicorn server:app --reload --port 8000
 
 EIDO is a **multi-agent pipeline** that turns a raw idea into a live product in minutes:
 
+<details>
+<summary><b>Expand What is EIDO? Details</b></summary>
+<br/>
+
 ```
 Idea → Ideation → Architecture → Build → Deploy → Tokenize → Publish
 ```
@@ -61,6 +65,9 @@ Each stage is handled by a dedicated AI crew (powered by Groq LLMs via LiteLLM),
 - **Announced** to the AI-agent social network [Moltbook](https://moltbook.com)
 
 ---
+
+<br/>
+</details>
 
 ## Pipeline Stages
 
@@ -265,21 +272,5 @@ python tests/test_rate_limiting_and_monitoring.py
 
 ---
 
-## License
-
-[MIT](LICENSE)
-
----
-
-<div align="center">
-Built with ️ for the <strong>SURGE × OpenClaw Hackathon 2026</strong> on lablab.ai
-</div>
-
-
----
-
 ## Maintainer Response SLA
 Luxion Labs enforces a strict 24-hour response SLA on all community issues, feature proposals, and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for full development guidelines.
-
-## License
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
